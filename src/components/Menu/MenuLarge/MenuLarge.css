@@ -1,0 +1,83 @@
+.menuLarge {
+  height: 90%;
+  width: 15%;
+  display: grid;
+  grid-template-rows: 10% 45% 37% 8%;
+  grid-template-areas:
+    "logo"
+    "opt-middle"
+    "opt-last"
+    "user";
+  border-radius: 5px;
+}
+
+.menuLargeLogo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  grid-area: logo;
+  cursor: pointer;
+}
+
+.menuLargeLogo h2 {
+  font-size: 16px;
+  width: 57%;
+  margin-left: 10px;
+  line-height: 60px;
+}
+
+.menuLargeMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: opt-middle;
+  border-bottom: 1px solid rgba(168, 164, 164, 0.6);
+  border-top: 1px solid rgba(168, 164, 164, 0.6);
+
+  margin: 0 10px;
+}
+
+.menuLargeLast {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  grid-area: opt-last;
+  margin: 0 8px;
+}
+
+.menuLargeUser {
+  grid-area: user;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(77, 76, 76, 0.377);
+}
+
+.menuLargeUser h2 {
+  font-size: 17px;
+  width: 60%;
+  margin-left: 10px;
+}
+.menuLargeOptions {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+.menuLargeOptions:hover {
+  background-color: rgba(147, 147, 150, 0.288);
+}
+
+.menuLargeOptions h2 {
+  width: 70%;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: bold;
+  opacity: 0.9;
+}

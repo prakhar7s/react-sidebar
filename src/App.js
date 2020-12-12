@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Menu from "./components/Menu/Menu";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Menu backgroundColor={"#000"} color={"rgba(156,163,175,0.9)"} />
+      <Menu backgroundColor={"#fff"} color={"rgba(55,65,81,1)"} />
+      <Menu backgroundColor={"navy"} color={"#ffffffc9"} />
     </div>
   );
 }

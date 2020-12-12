@@ -1,0 +1,57 @@
+.menuSmall {
+  height: 90%;
+  width: 5%;
+  display: grid;
+  grid-template-rows: 10% 45% 37% 8%;
+  grid-template-areas:
+    "logo"
+    "opt-middle"
+    "opt-last"
+    "user";
+  border-radius: 7px;
+}
+
+.menuSmallLogo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  grid-area: logo;
+  cursor: pointer;
+}
+
+.menuOptionsMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  grid-area: opt-middle;
+  border-bottom: 1px solid rgba(168, 164, 164, 0.6);
+  border-top: 1px solid rgba(168, 164, 164, 0.6);
+  margin: 0 8px;
+}
+
+.menuOptionsLast {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  grid-area: opt-last;
+  margin: 0 8px;
+}
+
+.menuSmallUser {
+  grid-area: user;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(77, 76, 76, 0.377);
+}
+.menuSmallOptions {
+  width: 80%;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.menuSmallOptions:hover {
+  background-color: rgba(147, 147, 150, 0.288);
+}
