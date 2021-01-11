@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-sidebar/static/css/main.d206c400.chunk.css",
+    "main.js": "/react-sidebar/static/js/main.575344d9.chunk.js",
+    "main.js.map": "/react-sidebar/static/js/main.575344d9.chunk.js.map",
+    "runtime-main.js": "/react-sidebar/static/js/runtime-main.fbfec446.js",
+    "runtime-main.js.map": "/react-sidebar/static/js/runtime-main.fbfec446.js.map",
+    "static/js/2.b4355a7c.chunk.js": "/react-sidebar/static/js/2.b4355a7c.chunk.js",
+    "static/js/2.b4355a7c.chunk.js.map": "/react-sidebar/static/js/2.b4355a7c.chunk.js.map",
+    "index.html": "/react-sidebar/index.html",
+    "static/css/main.d206c400.chunk.css.map": "/react-sidebar/static/css/main.d206c400.chunk.css.map",
+    "static/js/2.b4355a7c.chunk.js.LICENSE.txt": "/react-sidebar/static/js/2.b4355a7c.chunk.js.LICENSE.txt",
+    "static/media/app-logo.585b4a37.svg": "/react-sidebar/static/media/app-logo.585b4a37.svg",
+    "static/media/dashboard.46bd21c7.svg": "/react-sidebar/static/media/dashboard.46bd21c7.svg",
+    "static/media/docs.e58471fd.svg": "/react-sidebar/static/media/docs.e58471fd.svg",
+    "static/media/insights.91183020.svg": "/react-sidebar/static/media/insights.91183020.svg",
+    "static/media/messages.3b08f418.svg": "/react-sidebar/static/media/messages.3b08f418.svg",
+    "static/media/person-outline.dc3c2cdf.svg": "/react-sidebar/static/media/person-outline.dc3c2cdf.svg",
+    "static/media/search.f8c9c140.svg": "/react-sidebar/static/media/search.f8c9c140.svg",
+    "static/media/settings.310baeb6.svg": "/react-sidebar/static/media/settings.310baeb6.svg",
+    "static/media/shopping.cdb47477.svg": "/react-sidebar/static/media/shopping.cdb47477.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbfec446.js",
+    "static/js/2.b4355a7c.chunk.js",
+    "static/css/main.d206c400.chunk.css",
+    "static/js/main.575344d9.chunk.js"
+  ]
+}
